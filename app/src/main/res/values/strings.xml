@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SettingsPage</string>
+    <string name="settingPage1">Settings Page 1</string>
+    <string name="settingPage2">Settings Page 2</string>
+    <string name="settings_1.0">Settings Group 1.0</string>
+    <string name="settings_1.1">Settings Group 1.1</string>
+    <string name="settings_1.2">Settings Group 1.2</string>
+    <string name="edit_text_preference">Edit Text Preference</string>
+</resources>
