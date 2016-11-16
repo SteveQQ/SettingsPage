@@ -3,12 +3,14 @@ package com.steveq.settingspage.ui.activities;
 import android.app.Fragment;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 
 import com.steveq.settingspage.R;
 import com.steveq.settingspage.ui.fragments.Settings1Fragment;
+import com.steveq.settingspage.ui.fragments.Settings2Fragment;
 
 import java.util.List;
 
@@ -17,6 +19,8 @@ public class SettingsActivity extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        PreferenceManager.setDefaultValues(this, R.xml.preferences1, false);
+        PreferenceManager.setDefaultValues(this, R.xml.preferences1, false);
 
         /**
          * code that set fixed settings page when it is called
@@ -39,7 +43,11 @@ public class SettingsActivity extends PreferenceActivity {
     @Override
     protected boolean isValidFragment(String fragmentName) {
 
-        return true;
+        if(Settings1Fragment.class.getName().equals(fragmentName) ||
+                Settings2Fragment.class.getName().equals(fragmentName)){
+            return true;
+        }
+        return false;
     }
 }
 

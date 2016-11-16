@@ -6,4 +6,11 @@
     <string name="settings_1.1">Settings Group 1.1</string>
     <string name="settings_1.2">Settings Group 1.2</string>
     <string name="edit_text_preference">Edit Text Preference</string>
+    <string name="edit_text_key">edit_text_key</string>
+    <string name="checkbox_preference">Check Box Preference</string>
+    <string name="checkbox_key">checkbox_key</string>
+    <string name="checkbox2_preference">Check Box2 Preference</string>
+    <string name="checkbox2_key">checkbox2_key</string>
+    <string name="switch_preference">Switch Preference</string>
+    <string name="switch_key">switch_key</string>
 </resources>

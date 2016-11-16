@@ -6,10 +6,30 @@
         android:summary="@string/settings_1.0">
 
         <EditTextPreference
-            android:key="user_name"
+            android:key="@string/edit_text_key"
             android:title="@string/edit_text_preference"
             android:hint="..."
             android:summary="@string/edit_text_preference"/>
+
+        <CheckBoxPreference
+            android:key="@string/checkbox_key"
+            android:title="@string/checkbox_preference"
+            android:summary="@string/checkbox_preference"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/checkbox2_key"
+            android:title="@string/checkbox2_preference"
+            android:summary="@string/checkbox2_preference"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_1.1"
+        android:summary="@string/settings_1.1">
+
+        <SwitchPreference
+            android:title="@string/settings_1.1"
+            android:summary="@string/settings_1.1"/>
 
     </PreferenceCategory>
 
