@@ -5,7 +5,7 @@
         android:title="@string/settings_1.0"
         android:summary="@string/settings_1.0">
 
-        <EditTextPreference
+        <com.steveq.settingspage.ui.elements.CustomEditTextPreference
             android:key="@string/edit_text_key"
             android:title="@string/edit_text_preference"
             android:hint="..."

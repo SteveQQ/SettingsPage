@@ -1,11 +1,14 @@
 package com.steveq.settingspage.ui.activities;
 
 import android.app.Fragment;
+import android.content.Context;
+import android.preference.EditTextPreference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.widget.Button;
 
 import com.steveq.settingspage.R;
