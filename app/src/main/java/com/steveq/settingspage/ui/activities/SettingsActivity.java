@@ -20,8 +20,8 @@ public class SettingsActivity extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        PreferenceManager.setDefaultValues(this, R.xml.preferences1, false);
-        PreferenceManager.setDefaultValues(this, R.xml.preferences1, false);
+//        PreferenceManager.setDefaultValues(this, R.xml.preferences1, false);
+//        PreferenceManager.setDefaultValues(this, R.xml.preferences1, false);
 
         /**
          * code that set fixed settings page when it is called
@@ -51,6 +51,8 @@ public class SettingsActivity extends PreferenceActivity {
         }
         return false;
     }
+
+
 }
 
 

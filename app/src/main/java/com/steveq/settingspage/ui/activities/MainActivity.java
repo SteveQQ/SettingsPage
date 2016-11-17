@@ -23,12 +23,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        setDefaults();
-    }
-
-    private void setDefaults() {
-        PreferenceManager.setDefaultValues(this, R.xml.preferences1,false);
-        PreferenceManager.setDefaultValues(this, R.xml.preferences2,false);
-        PreferenceManager.setDefaultValues(this, R.xml.preferences3,false);
     }
 }
