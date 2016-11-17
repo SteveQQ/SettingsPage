@@ -1,6 +1,7 @@
 package com.steveq.settingspage.ui.activities;
 
 import android.content.Intent;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,5 +23,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        setDefaults();
+    }
+
+    private void setDefaults() {
+        PreferenceManager.setDefaultValues(this, R.xml.preferences1,false);
+        PreferenceManager.setDefaultValues(this, R.xml.preferences2,false);
+        PreferenceManager.setDefaultValues(this, R.xml.preferences3,false);
     }
 }

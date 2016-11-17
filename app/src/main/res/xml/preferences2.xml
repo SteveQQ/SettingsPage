@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <PreferenceScreen
+        android:title="@string/open_activity"
+        android:summary="@string/open_activity"
+        android:icon="@android:drawable/ic_lock_lock">
+        <intent
+            android:targetPackage="com.steveq.settingspage"
+            android:targetClass="com.steveq.settingspage.ui.activities.ExtraActivity"
+            />
+            <!-- or using intent filter add this line in intent tag:
+            android:action="com.steveq.settingspage.ui.activities.ExtraActivity"-->
+    </PreferenceScreen>
 </PreferenceScreen>

@@ -17,6 +17,12 @@
         </activity>
         <activity android:name=".ui.activities.SettingsActivity">
         </activity>
+        <activity android:name=".ui.activities.ExtraActivity">
+            <intent-filter>
+                <action android:name="com.steveq.settingspage.ui.activities.ExtraActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">SettingsPage</string>
+    <string name="preference1_key">preference1</string>
+    <string name="preference2_key">preference2</string>
+    <string name="preference3_key">preference3</string>
     <string name="settingPage1">Settings Page 1</string>
     <string name="settingPage2">Settings Page 2</string>
     <string name="settings_1.0">Settings Group 1.0</string>
@@ -32,4 +35,6 @@
         <item>3</item>
         <item>4</item>
     </string-array>
+    <string name="open_fragment">Open Fragment</string>
+    <string name="open_activity">Open Activity</string>
 </resources>

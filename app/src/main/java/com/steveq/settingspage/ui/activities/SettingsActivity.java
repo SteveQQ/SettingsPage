@@ -11,6 +11,7 @@ import android.widget.Button;
 import com.steveq.settingspage.R;
 import com.steveq.settingspage.ui.fragments.Settings1Fragment;
 import com.steveq.settingspage.ui.fragments.Settings2Fragment;
+import com.steveq.settingspage.ui.fragments.Settings3Fragment;
 
 import java.util.List;
 
@@ -44,7 +45,8 @@ public class SettingsActivity extends PreferenceActivity {
     protected boolean isValidFragment(String fragmentName) {
 
         if(Settings1Fragment.class.getName().equals(fragmentName) ||
-                Settings2Fragment.class.getName().equals(fragmentName)){
+                Settings2Fragment.class.getName().equals(fragmentName) ||
+                Settings3Fragment.class.getName().equals(fragmentName)){
             return true;
         }
         return false;

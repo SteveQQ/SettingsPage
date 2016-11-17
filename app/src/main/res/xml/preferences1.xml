@@ -48,9 +48,8 @@
                 android:summary="@string/ringtone_subscreen_preference"/>
 
             <PreferenceScreen
-                android:key="@string/ringtone_subscreen_key"
-                android:title="@string/ringtone_subscreen_preference"
-                android:summary="@string/ringtone_subscreen_preference"
+                android:title="@string/open_fragment"
+                android:summary="@string/open_fragment"
                 android:fragment="com.steveq.settingspage.ui.fragments.Settings3Fragment"/>
 
         </PreferenceScreen>
