@@ -28,11 +28,13 @@
         android:summary="@string/settings_1.1">
 
         <SwitchPreference
+            android:key="@string/switch_key"
             android:title="@string/switch_preference"
             android:summary="@string/switch_preference"
             android:dependency="@string/checkbox2_key"/>
 
         <SwitchPreference
+            android:key="@string/switch2_key"
             android:title="@string/switch2_preference"
             android:summary="@string/switch2_preference"
             android:defaultValue="true"/>

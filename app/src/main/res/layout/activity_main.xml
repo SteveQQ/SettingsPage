@@ -18,4 +18,13 @@
         android:textSize="36sp"
         android:text="SETTINGS"/>
 
+    <Button
+        android:id="@+id/dataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:text="DATA"/>
+
 </RelativeLayout>

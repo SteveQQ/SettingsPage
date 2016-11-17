@@ -15,6 +15,7 @@ In this project you can find solutions to:
 7. Opening fragment using preference
 8. Opening activity via intent attached to preference
 9. Creating sharedPreference different to defaultPreference attached to preferences
+10. Creating subscreens in preferenceScreen
 
 
 #Installing
