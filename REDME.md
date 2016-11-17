@@ -5,6 +5,17 @@ References:
 https://developer.android.com/guide/topics/ui/settings.html#SettingTypes
 https://developer.android.com/reference/android/preference/PreferenceActivity.html
 
+In this project you can find solutions to:
+1. Current approach to creating Preference Page in your app
+2. Creating Preference Activity
+3. Creating Preference Fragment
+4. Creating header file
+5. Creating preference.xml file with different controls
+6. Usage of different preference attributes
+7. Opening fragment using preference
+8. Opening activity via intent attached to preference
+9. Creating sharedPreference different to defaultPreference attached to preferences
+
 
 #Installing
 
