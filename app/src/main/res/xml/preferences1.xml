@@ -28,8 +28,33 @@
         android:summary="@string/settings_1.1">
 
         <SwitchPreference
-            android:title="@string/settings_1.1"
-            android:summary="@string/settings_1.1"/>
+            android:title="@string/switch_preference"
+            android:summary="@string/switch_preference"
+            android:dependency="@string/checkbox2_key"/>
+
+        <SwitchPreference
+            android:title="@string/switch2_preference"
+            android:summary="@string/switch2_preference"
+            android:defaultValue="true"/>
+
+        <PreferenceScreen
+            android:title="@string/subscreen"
+            android:summary="@string/subscreen"
+            android:icon="@android:drawable/ic_menu_preferences">
+
+            <RingtonePreference
+                android:key="@string/ringtone_subscreen_key"
+                android:title="@string/ringtone_subscreen_preference"
+                android:summary="@string/ringtone_subscreen_preference"/>
+
+            <PreferenceScreen
+                android:key="@string/ringtone_subscreen_key"
+                android:title="@string/ringtone_subscreen_preference"
+                android:summary="@string/ringtone_subscreen_preference"
+                android:fragment="com.steveq.settingspage.ui.fragments.Settings3Fragment"/>
+
+        </PreferenceScreen>
+
 
     </PreferenceCategory>
 

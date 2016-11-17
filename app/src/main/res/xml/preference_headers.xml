@@ -3,14 +3,12 @@
 
     <header
         android:fragment="com.steveq.settingspage.ui.fragments.Settings1Fragment"
-        android:icon="@android:drawable/ic_menu_preferences"
         android:title="@string/settingPage1"
         android:summary="@string/settingPage1"
         />
 
     <header
         android:fragment="com.steveq.settingspage.ui.fragments.Settings2Fragment"
-        android:icon="@android:drawable/ic_menu_preferences"
         android:title="@string/settingPage2"
         android:summary="@string/settingPage2"
         />

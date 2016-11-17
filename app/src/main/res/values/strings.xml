@@ -13,4 +13,23 @@
     <string name="checkbox2_key">checkbox2_key</string>
     <string name="switch_preference">Switch Preference</string>
     <string name="switch_key">switch_key</string>
+    <string name="switch2_preference">Switch2 Preference</string>
+    <string name="switch2_key">switch2_key</string>
+    <string name="subscreen">Subscreen</string>
+    <string name="ringtone_subscreen_preference">Ringtone Preference</string>
+    <string name="ringtone_subscreen_key">ringtone_key</string>
+    <string name="list_preference">List Preference</string>
+    <string name="list_key">list_key</string>
+    <string-array name="options_list_preference">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+    </string-array>
+    <string-array name="options_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 </resources>
